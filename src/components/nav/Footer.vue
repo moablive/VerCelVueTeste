@@ -10,16 +10,19 @@
     </footer>
 </template>
 
+
 <style scoped>
-  footer {
-    position: fixed;
-    bottom: 0;
+    footer {
     width: 100%;
-  }
+    bottom: 0;
+    position: relative;
+    margin-top: auto;
+}
 </style>
+
 
 <script lang="ts">
 export default {
-  name: 'Footer',
+name: 'Footer',
 };
 </script>
